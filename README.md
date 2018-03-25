@@ -13,7 +13,7 @@ array_diff([1,2,2,2,3],[2]) == [1,3]
 
 
 ## How It's Made
-I knew off rip I had to go thru each indexOf array list[a] and if they were present in [b] remove it. As well as having to remove whatever indexOf[b] that was an occurrence in [a] remove from one another then combine it.
+I knew off rip I had to go thru each indexOf array list[a] and if they were present in [b] remove it. As well as having to remove whatever indexOf[b] that was an occurrence in [a] remove from one another then combine it!
 
 So I wanted to create an array named John, then was thinking I needed to create for(loop)that went thru the length of [a] and check the index of [b] and if it === -1 then it was cool to push it in to my array named John that I made.
 
